@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="2" failures="0" name="RegisterTest" time="16.748" errors="0" skipped="0">
+<testsuite tests="2" failures="0" name="RegisterTest" time="19.575" errors="0" skipped="0">
   <properties>
     <property name="idea.version" value="2022.3.2"/>
     <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
@@ -47,7 +47,7 @@
     <property name="java.class.path" value="C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2022.3.2\plugins\maven\lib\maven3\boot\plexus-classworlds-2.6.0.jar;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2022.3.2\plugins\maven\lib\maven3\boot\plexus-classworlds.license"/>
     <property name="java.vm.specification.version" value="11"/>
     <property name="sun.arch.data.model" value="64"/>
-    <property name="sun.java.command" value="org.codehaus.classworlds.Launcher -Didea.version=2022.3.2 verify"/>
+    <property name="sun.java.command" value="org.codehaus.classworlds.Launcher -Didea.version=2022.3.2 clean test"/>
     <property name="java.home" value="C:\Program Files\Amazon Corretto\jdk11.0.18_10"/>
     <property name="user.language" value="en"/>
     <property name="java.specification.vendor" value="Oracle Corporation"/>
@@ -65,6 +65,6 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase classname="RegisterTest" name="registerUserWithCorrectCredsSuccess" time="6.715"/>
-  <testcase classname="RegisterTest" name="registerUserWithIncorrectPassError" time="10.033"/>
+  <testcase classname="RegisterTest" name="registerUserWithCorrectCredsSuccess" time="12.805"/>
+  <testcase classname="RegisterTest" name="registerUserWithIncorrectPassError" time="6.77"/>
 </testsuite>
