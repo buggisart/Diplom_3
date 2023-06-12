@@ -4,19 +4,29 @@ import io.restassured.response.ValidatableResponse;
 
 import static io.restassured.RestAssured.given;
 
-public class UserAPI extends RestClient {
+public class UserClient extends RestClient {
 
 private static final String DELETE_USER = "auth/user";
+
+private static final String LOGIN_USER = "auth/login";
 
 private static final String CREATE_USER = "auth/register";
 
 
-    public ValidatableResponse create(String email, String password, String name]) {
+public ValidatableResponse create(User user) {
         return given()
                 .spec(getBaseSpec())
-                .body(email, password, name)
+                .body(user)
                 .when()
                 .post(CREATE_USER)
+                .then();
+    }
+    public ValidatableResponse login(UserCredentials userCredentials) {
+        return given()
+                .spec(getBaseSpec())
+                .body(userCredentials)
+                .when()
+                .post(LOGIN_USER)
                 .then();
     }
     public ValidatableResponse deleteUser(String authToken) {
@@ -25,7 +35,8 @@ private static final String CREATE_USER = "auth/register";
                 .header("Authorization", authToken)
                 .when()
                 .delete(DELETE_USER)
-                .then();
+                .then()
+                .log().all();
     }
 }
 

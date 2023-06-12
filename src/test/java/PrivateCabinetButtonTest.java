@@ -1,7 +1,4 @@
 import PageObject.MainPage;
-import User.User;
-import User.UserClient;
-import User.UserCredentials;
 import io.github.bonigarcia.wdm.WebDriverManager;
 import org.junit.After;
 import org.junit.Assert;
@@ -18,14 +15,11 @@ import java.time.Duration;
 
 import static org.hamcrest.Matchers.containsString;
 
-public class PrivateCabinetTest {
+public class PrivateCabinetButtonTest {
     WebDriver driver;
     MainPage mainPage;
-    UserClient userClient;
     private String email = "test987@test.com";
     private String password = "test123";
-    User user = new User(email, password);
-    UserCredentials userCredentials = new UserCredentials(user.getEmail(), user.getPassword());
     @Before
     public void setUp() {
         WebDriverManager.chromedriver().setup();
