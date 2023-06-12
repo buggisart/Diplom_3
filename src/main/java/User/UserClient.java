@@ -35,8 +35,7 @@ public ValidatableResponse create(User user) {
                 .header("Authorization", authToken)
                 .when()
                 .delete(DELETE_USER)
-                .then()
-                .log().all();
+                .then();
     }
 }
 

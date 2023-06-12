@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="2" failures="0" name="RegisterTest" time="13.837" errors="0" skipped="0">
+<testsuite tests="2" failures="0" name="RegisterTest" time="16.748" errors="0" skipped="0">
   <properties>
     <property name="idea.version" value="2022.3.2"/>
     <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
@@ -65,6 +65,6 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase classname="RegisterTest" name="registerUserWithCorrectCredsSuccess" time="7.29"/>
-  <testcase classname="RegisterTest" name="registerUserWithIncorrectPassError" time="6.547"/>
+  <testcase classname="RegisterTest" name="registerUserWithCorrectCredsSuccess" time="6.715"/>
+  <testcase classname="RegisterTest" name="registerUserWithIncorrectPassError" time="10.033"/>
 </testsuite>

@@ -32,6 +32,9 @@ public class MainPage {
     private static final By LOGIN_BUTTON_RECOVERY_PASSWORD_PAGE = By.xpath(".//a[text() ='Войти']");
     private static final By LOGO_BUTTON = By.xpath(".//a[@href ='/']");
     private static final By LOGOUT_BUTTON = By.xpath(".//button[text() ='Выход']");
+    private static final By SAUCES = By.xpath(".//span[text() ='Соусы']");
+    private static final By FILLINGS = By.xpath(".//span[text() ='Начинки']");
+    private static final By BUNS = By.xpath(".//span[text() ='Булки']");
 
 
 
@@ -87,7 +90,15 @@ public void loginWithLoginButton(String email, String password) {
         driver.findElement(LOGOUT_BUTTON).click();
     }
 
-
+    public void constructorClickOnBuns() {
+        driver.findElement(BUNS).click();
+    }
+    public void constructorClickOnSauces() {
+        driver.findElement(SAUCES).click();
+    }
+    public void constructorClickOnFillings() {
+        driver.findElement(FILLINGS).click();
+    }
 }
 
 

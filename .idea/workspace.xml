@@ -5,21 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="272ab15c-9fe2-482a-961c-3e64b6256464" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/test/java/ConstructorTransitions.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/PageObject/MainPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/PageObject/MainPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/PageObject/RecoveryPasswordPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/PageObject/RecoveryPasswordPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/PageObject/RegisterPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/PageObject/RegisterPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/User/RestClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/User/RestClient.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/User/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/User/User.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/User/UserClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/User/UserClient.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/User/UserCredentials.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/User/UserCredentials.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ConstructorTransitions.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/LoginTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/LoginTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/LogoButtonTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/LogoButtonTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/LogoutButtonTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/LogoutButtonTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/PrivateCabinetButtonTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/PrivateCabinetButtonTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/RegisterTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/RegisterTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,25 +50,46 @@
 }</component>
   <component name="RunAnythingCache">
     <option name="myCommands">
+      <command value="mvn clear test" />
       <command value="mvn tests clean" />
       <command value="mvn verify" />
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.java in Diplom_3">
-    <configuration name="LoginTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.ConstructorTransitions.clickOnFillingConstructorSuccess">
+    <configuration name="ConstructorTransitions" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Diplom_3" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="LoginTest" />
+      <option name="MAIN_CLASS_NAME" value="ConstructorTransitions" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RegisterTest.registerUserWithCorrectCredsSuccess" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ConstructorTransitions.clickOnBunsConstructorSuccess" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Diplom_3" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="RegisterTest" />
-      <option name="METHOD_NAME" value="registerUserWithCorrectCredsSuccess" />
+      <option name="MAIN_CLASS_NAME" value="ConstructorTransitions" />
+      <option name="METHOD_NAME" value="clickOnBunsConstructorSuccess" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ConstructorTransitions.clickOnFillingConstructorSuccess" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Diplom_3" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="ConstructorTransitions" />
+      <option name="METHOD_NAME" value="clickOnFillingConstructorSuccess" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ConstructorTransitions.clickOnSaucesConstructorSuccess" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Diplom_3" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="ConstructorTransitions" />
+      <option name="METHOD_NAME" value="clickOnSaucesConstructorSuccess" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -95,9 +105,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ConstructorTransitions.clickOnFillingConstructorSuccess" />
+        <item itemvalue="JUnit.ConstructorTransitions" />
+        <item itemvalue="JUnit.ConstructorTransitions.clickOnSaucesConstructorSuccess" />
+        <item itemvalue="JUnit.ConstructorTransitions.clickOnBunsConstructorSuccess" />
         <item itemvalue="JUnit.java in Diplom_3" />
-        <item itemvalue="JUnit.LoginTest" />
-        <item itemvalue="JUnit.RegisterTest.registerUserWithCorrectCredsSuccess" />
       </list>
     </recent_temporary>
   </component>
