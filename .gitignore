@@ -1,4 +1,4 @@
-target/
+.gitignore
 !.mvn/wrapper/maven-wrapper.jar
 !**/src/main/**/target/
 !**/src/test/**/target/
@@ -37,3 +37,9 @@ build/
 ### Mac OS ###
 .DS_Store
 /.idea/
+/target/maven-status/
+/target/maven-archiver/
+/target/generated-test-sources/
+/target/generated-sources/
+/target/classes/
+/target/test-classes/
