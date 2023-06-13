@@ -5,18 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="272ab15c-9fe2-482a-961c-3e64b6256464" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/Diplom_3-1.0-SNAPSHOT.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/LoginTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/LoginTest.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/LogoButtonTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/LogoButtonTest.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/LogoutButtonTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/LogoutButtonTest.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/PrivateCabinetButtonTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/PrivateCabinetButtonTest.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/RegisterTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/RegisterTest.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-LoginTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-LoginTest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-LogoButtonTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-LogoButtonTest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-LogoutButtonTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-LogoutButtonTest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-PrivateCabinetButtonTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-PrivateCabinetButtonTest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-RegisterTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-RegisterTest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/ConstructorTransitionsTestYandex.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,6 +46,11 @@
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;
   }
 }</component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
+  </component>
   <component name="RunAnythingCache">
     <option name="myCommands">
       <command value="mvn clear test" />
@@ -64,7 +59,7 @@
       <command value="mvn clean test" />
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.ConstructorTransitions.clickOnFillingConstructorSuccess">
+  <component name="RunManager" selected="JUnit.java in Diplom_3">
     <configuration name="ConstructorTransitions" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Diplom_3" />
       <option name="PACKAGE_NAME" value="" />
@@ -114,11 +109,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.java in Diplom_3" />
         <item itemvalue="JUnit.ConstructorTransitions.clickOnFillingConstructorSuccess" />
         <item itemvalue="JUnit.ConstructorTransitions" />
         <item itemvalue="JUnit.ConstructorTransitions.clickOnSaucesConstructorSuccess" />
         <item itemvalue="JUnit.ConstructorTransitions.clickOnBunsConstructorSuccess" />
-        <item itemvalue="JUnit.java in Diplom_3" />
       </list>
     </recent_temporary>
   </component>
